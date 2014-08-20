@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+jekyll serve &
+jekyll build --watch &
+sass --watch src/_sass/src/screen.sass:src/css/screen.css

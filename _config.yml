@@ -1,0 +1,34 @@
+
+# @author Adam Marshall <adam@appsynergy.net>
+# @copyright Adam Marshall, MDCA 2014
+
+# Who are we?
+name: ChaosPattern
+
+# Markdown related stuff
+markdown: redcarpet
+#redcarpet:
+#  extensions: ["tables"]
+highlighter: true
+
+# Where the things are
+source:      ./src
+destination: ./site
+
+# Include and exclude some files
+include: 
+  - bootstrap/
+  - .htaccess
+
+# Plugins and other nice things
+#gems:
+#  - jekyll-sitemap
+
+# Deployment with Glynn
+ftp_host: 'appsynergy.net'
+ftp_dir: 'chaospattern.com'
+#ftp_passive: false
+#ftp_port: 21
+# use STDIO
+#ftp_username:
+#ftp_password:
