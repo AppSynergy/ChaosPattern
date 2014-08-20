@@ -10,10 +10,10 @@
 		<script type="text/javascript" src="/bootstrap/js/jquery.min.js"></script>
 		<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
     </head>
-    <body class="theme-{{ page.color }} content-{{ page.name }}">
+    <body class="content-{{ page.name }}">
 		{% include header.html %}
         <div class="site container">
-			
+			{{ content }}
         </div><!-- .site -->
 		{% include footer.html %}
     </body>
