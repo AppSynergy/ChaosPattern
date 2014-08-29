@@ -3,4 +3,27 @@
  */
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 html body {
-  background-color: white; }
+  font-family: "Lato", sans-serif;
+  background-color: black; }
+  html body .site {
+    position: relative; }
+  html body h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 6px; }
+  html body .artwork {
+    margin: 10px;
+    float: left; }
+  html body #cboxOverlay {
+    background-color: #222222; }
+  html body .chaos-btn {
+    font-size: 18px;
+    position: absolute;
+    top: 28px;
+    right: 25px; }
+  html body .footer {
+    text-align: center;
+    padding: 20px 0; }

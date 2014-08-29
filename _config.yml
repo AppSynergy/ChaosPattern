@@ -26,7 +26,7 @@ include:
 
 # Deployment with Glynn
 ftp_host: 'appsynergy.net'
-ftp_dir: 'chaospattern.com'
+ftp_dir: 'chaos'
 #ftp_passive: false
 #ftp_port: 21
 # use STDIO

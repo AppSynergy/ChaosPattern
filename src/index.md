@@ -4,7 +4,16 @@ name: home
 title: ChaosPattern
 ---
 
-#Content goes here
+#ChaosPattern
 
-<p><a class="art" href="/img/420_by_scehmeanj-d1b5y47.jpg" title="Caption">Grouped Photo 1</a></p>
-<p><a class="art" href="/img/between_the_toes_by_scehmeanj-d1b5xmb.jpg" title="Caption">Grouped Photo 2</a></p>
+<input type="button" class="btn chaos-btn btn-warning" id="createChaos" value="enable chaos mode" />
+
+<div class="art-masonry">
+{% for pic in site.data.artwork %}
+	<div class="artwork">
+		<a class="art" href="/img/{{ pic }}" title="Click to view full size">
+			<img src="/img/thumb/{{ pic }}" alt="Chaospattern" />
+		</a>
+	</div>
+{% endfor %}
+</div>
